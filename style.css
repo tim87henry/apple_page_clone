@@ -1,0 +1,56 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 0 100% no-repeat;
+    height: 540px;
+    width: 75%;
+}
+
+.heading1 {
+    overflow: hidden;
+}
+
+.heading1 img {
+    margin-bottom: -20px;
+}
+
+.heading2 {
+    overflow: hidden;
+}
+
+.heading2 img {
+    margin-bottom: -10px;
+}
+
+.heading3 {
+    overflow: hidden;
+}
+
+.heading3 img {
+    margin-bottom: -60px;
+}
